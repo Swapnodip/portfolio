@@ -8,7 +8,7 @@ interface Props {
 const activeClass =
   "py-5 px-9 text-6xl font-bold hover:text-7xl transition-all duration-300 cursor-pointer";
 const inactiveClass =
-  "py-5 px-9 hover:text-7xl transition-all duration-300 opacity-75 cursor-pointer";
+  "py-5 px-9 hover:text-7xl transition-all duration-300 cursor-pointer";
 const navbarElements = ["Home", "About me", "My work", "Contact me"];
 
 export default function Navbar(props: Props) {
