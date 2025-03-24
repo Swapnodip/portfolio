@@ -1,7 +1,7 @@
 export default function AboutMe() {
   return (
     <div>
-      <div className="flex flex-row gap-20">
+      <div className="flex flex-col sm:flex-row gap-20">
         <div className="text-xl">
           <h4 className="font-bold text-2xl bg-gradient-to-br from-sky-500 to-emerald-500 bg-clip-text text-transparent">
             Education:

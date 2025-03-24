@@ -1,3 +1,4 @@
+import IonIcon from "@reacticons/ionicons";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -43,16 +44,16 @@ export default function MyWork() {
         {elements.map((e, i) => (
           <div
             key={i}
-            className="p-1 bg-gradient-to-br from-sky-400 to-emerald-400 rounded-2xl hover:bg-gradient-to-tl w-80 h-20 hover:h-96 transition-all duration-500"
+            className="p-1 bg-gradient-to-br from-sky-400 to-emerald-400 rounded-2xl w-80 h-fit sm:h-20 hover:h-96 transition-all duration-500"
           >
             <div className="p-5 bg-[#000E22] rounded-xl w-full h-full overflow-hidden">
               <div className="font-bold text-center">{e.name}</div>
               <div className="mt-5 flex flex-row justify-around">
                 <Link href={e.link} target="blank">
-                  <Image src="link.svg" alt="link" width={32} height={32} className="inline" />
+                  <IonIcon name="link" size="large" className="text-cyan-600"/>
                 </Link>
                 <Link href={e.github} target="blank">
-                  <Image src="github.svg" alt="github" width={32} height={32} className="inline" />
+                  <IonIcon name="logo-github" size="large" className="text-cyan-600"/>
                 </Link>
               </div>
               <div className="text-center mt-3 text-base text-amber-400">
