@@ -1,5 +1,4 @@
 import IonIcon from "@reacticons/ionicons";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function MyWork() {
